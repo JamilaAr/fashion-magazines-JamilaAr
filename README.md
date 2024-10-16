@@ -44,7 +44,7 @@ customers that have unpaid Fashion Magazine subscriptions. Note that the column
 names in the resulting file need to match the column names in the example below.
 
 Hints
-- Build the query piece by piece 
+- Build the query piece by piece
 - Start with the orders table and work out from there.
 - Filter the orders table on the `orders.order_status` column
 - Join the customers table to the orders table to get the customer's name
@@ -94,7 +94,7 @@ Virtual Environment Commands
 | ------- | --------- | ------- |
 | Create | `python3 -m venv venv` | `python -m venv venv` |
 | Activate | `source venv/bin/activate` | `source venv/Scripts/activate` |
-| Install | `pip install -r requirements.txt` | `pip install -r requirements.txt` |
+| Install | `` | `pip install -r requirements.txt` |
 | Deactivate | `deactivate` | `deactivate` |
 
 
